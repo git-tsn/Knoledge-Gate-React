@@ -26,7 +26,7 @@ function App() {
     <>
       <Navbar></Navbar>
 
-      <div className="main-container md:flex space-y-12 text-center gap-8 mt-8 m-20">
+      <div className="main-container md:flex space-y-12 text-center gap-8 m-4 sm:m-8 mt-8">
         <div className="left-container border-2 border-indigo-500 shadow-lg rounded-4xl">
           <Blogs key={bookmarked.id} handleBookMark={handleBookMark} handleMarkAsRead={handleMarkAsRead}></Blogs>
         </div>
